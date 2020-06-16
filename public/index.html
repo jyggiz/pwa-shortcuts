@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Shortcuts PWA</title>
+    <meta name="description" content="Simple PWA with Shortcuts" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#fff">
+    <link
+      rel="apple-touch-icon"
+      sizes="192x192"
+      href="/assets/logo-192x192.png"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link href="/assets/logo-192x192.png" rel="icon" />
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <header>
+      <p>🛰PWA Shortcuts🛰</p>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="bold">Home</a></li>
+          <li><a href="search.html">Search</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="post.html">Add Post</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>HOME</h1>
+    </main>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/sw.js");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+{
+  "short_name": "PWA Shortcuts",
+  "name": "PWA Shortcuts example",
+  "icons": [
+    {
+      "src": "/assets/logo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "shortcuts": [
+    {
+      "name": "Search page",
+      "short_name": "Search",
+      "url": "/search.html",
+      "icons": [
+        { "src": "/assets/search.png", "sizes": "192x192", "type": "image/png" }
+      ]
+    },
+    {
+      "name": "News feed",
+      "short_name": "News",
+      "url": "/news.html",
+      "icons": [
+        { "src": "/assets/post.png", "sizes": "192x192", "type": "image/png" }
+      ]
+    },
+    {
+      "name": "Add new Post",
+      "short_name": "Add Post",
+      "url": "/post.html",
+      "icons": [
+        { "src": "/assets/plus.png", "sizes": "192x192", "type": "image/png" }
+      ]
+    }
+  ]
+}

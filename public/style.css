@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  border-bottom: 2px solid black;      
+}
+
+nav > ul {
+  list-style: none;
+}
+      
+ul li {
+  display: inline;
+  margin-left: 15px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+      
+h1 {
+  font-size: 80px;
+}
+      
+a {
+  color: black;
+  text-decoration: none;
+}
+      
+p {
+  font-size: 30px;
+}
+
+.bold {
+  font-weight: bold;
+}
