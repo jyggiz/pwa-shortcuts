@@ -4,7 +4,7 @@ Create for my [Medium article](https://medium.com/better-programming/how-to-crea
 
 # DEMO
 Use the app online at https://pwa-shortcuts.firebaseapp.com/index.html. Hosted with Firebase
-![App demo](public/app_demo.gif)
+![App demo](demo/demo.mp4)
 
 # Support
 Reach out to me at one of the following places!
